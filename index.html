@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-ico" href="./src/img/FavIcon.png" />
+    <link rel="stylesheet" href="./src/css/global-styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 2 | Kevin Gutierrez</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <header><button id="button-back" class="back-button d-none" data-action="hidden">Volver</button></header>
+            <div class="info-container">
+                <button id="previus-arrow" class="arrow-button-1" data-action="previus"></button>
+                <img id="img-characters" class="animate" alt="img view characters" title="characters" />
+                <button id="next-arrow" class="arrow-button-2" data-action="next"></button>
+                <div id="container-description" class="d-none">
+                    <h1 id="title-description"></h1>
+                    <p id="text-description"></p>
+                </div>
+            </div>
+            <footer><button id="button-name" class="name-button animate" data-action="show"></button></footer>
+        </section>
+    </main>
+    <script type="module" src="./src/js/main.js"></script>
+</body>
+</html>
