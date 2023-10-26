@@ -133,6 +133,10 @@ function validateArrowActive() {
 
 function showOrHiddenDescription(event) {
     const { name, description } = dataCharacters[currentIndex];
+    nextArrow.setAttribute("disabled", "true"); 
+    previusArrow.setAttribute("disabled", "true");
+    setTimeout(() => { nextArrow.removeAttribute("disabled"); previusArrow.removeAttribute("disabled"); }, 600)
+
     if (event.target.dataset.action == "show") {
         if (imageCharacters.classList.contains("animate-img-description-revert")) {
             imageCharacters.classList.remove("animate-img-description-revert")
@@ -145,8 +149,7 @@ function showOrHiddenDescription(event) {
         containerDescriptio.classList.replace("d-none", "animate-items-description")
         titleDescription.textContent = name;
         textDescription.textContent = description;
-    }
-    else {
+    } else {
         imageCharacters.classList.replace("animate-img-description", "animate-img-description-revert");
         previusArrow.classList.replace("d-none", "animate-items-description")
         nextArrow.classList.replace("d-none", "animate-items-description")
