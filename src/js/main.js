@@ -11,7 +11,7 @@ const dataCharacters = [
     {
         id: 2,
         name: "Pekka",
-        pathImage: "./src/img/pekka.webp",
+        pathImage: "./src/img/Pekka.webp",
         description:
             "Es una tropa poderosa y puede hacer bastante daño con la colocación y el apoyo correctos. Hace daño masivo a un objetivo a la vez. Sólo a niveles decentes, una P.E.K.K.A puede matar a un Bárbaro de un solo golpe.",
     },
