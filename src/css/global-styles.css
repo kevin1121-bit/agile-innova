@@ -104,6 +104,7 @@ img {
 .arrow-button-1:disabled,
 .arrow-button-2:disabled {
     opacity: .5;
+    cursor: not-allowed;
 }
 #container-description {
     width: 50%;
