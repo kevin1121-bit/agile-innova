@@ -133,9 +133,6 @@ function validateArrowActive() {
 
 function showOrHiddenDescription(event) {
     const { name, description } = dataCharacters[currentIndex];
-    nextArrow.setAttribute("disabled", "true"); 
-    previusArrow.setAttribute("disabled", "true");
-    setTimeout(() => { nextArrow.removeAttribute("disabled"); previusArrow.removeAttribute("disabled"); }, 600)
 
     if (event.target.dataset.action == "show") {
         if (imageCharacters.classList.contains("animate-img-description-revert")) {
