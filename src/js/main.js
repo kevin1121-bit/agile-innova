@@ -71,6 +71,11 @@ const dataCharacters = [
         description:
             "Es una tropa muy fuerte, además que tiene una gran velocidad, acompañar esta carta con otras unidades que ataquen con daño en área suele ser un buen combo.",
     },
+    {
+        id: 11,
+        name: "Bebé Dragón",
+        pathImage: "./src/img/dragon.png"
+    }
 ];
 
 let currentIndex = 0;
